@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculater</title>
+    <link rel="stylesheet" href="calcu.css">
+</head>
+<body>
+    <div class="calculater">
+        <div>
+            <form>
+                <input type="text" class="ans">
+            </form>
+        </div>
+        <div class="container bg-red ">
+            <div class="row">
+                <button class="btn buttons" id="clear" >C</button>
+                <button class="btn buttons" id='back' ><</button>
+                <button class="btn buttons" id="div" data-num="/">/</button>
+                <button class="btn buttons" id=" multiple" data-num="*">x</btton>
+            </div>
+            <div class="row">
+                <button class="btn button" id="number"  data-num="7">7</button>
+                <button class="btn button" id="number"  data-num="8">8</button>
+                <button class="btn button" id="number" data-num="9">9</button>
+                <button class="btn buttons" id=" sub"data-num="-">-</button>
+           </div>
+           <div class="row">
+                <button class="btn button" id="number" data-num="4">4</button>
+                <button class="btn button" id="number" data-num="5">5</button>
+                <button class="btn button" id="number" data-num="6">6</button>
+                <button class="btn buttons" id="add"data-num="+">+</button>
+           </div>
+           <div class="row">
+                <button class="btn button" id="number" data-num="1">1</button>
+                <button class="btn button" id="number" data-num="2">2</button>
+                <button class="btn button" id="number" data-num="3">3</button>
+                <button class="btn buttons" id="dot"  data-num=".">.</button>
+            </div>
+            <div class="row">
+                <button class="btn buttons" id="open" data-num="(">(</button>
+                <button class="btn button" id="number" data-num="0">0</button>
+                <button class="btn buttons" id="clo" data-num=")">)</button>
+                <button class="button1" id="equal">=</button>
+            </div>
+        </div>
+    </div>
+   
+    <script src="cal.js"></script>
+</body>
+</html>
